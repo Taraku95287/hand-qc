@@ -82,8 +82,9 @@ def main(argv=None) -> int:
                      help=f"comma-separated architectures, default "
                           f"'{','.join(DEFAULT_ARCHS)}'; "
                           f"available: {', '.join(ARCHS)}")
-    mdl.add_argument("--weights", default="weights",
-                     help="folder holding the .pt/.onnx files (default: weights)")
+    mdl.add_argument("--weights", default=None,
+                     help="folder holding the .pt/.onnx files "
+                          "(default: ./weights next to this script)")
 
     det = ap.add_argument_group("detection (only used by --full)")
     det.add_argument("--detector", default=None,
@@ -106,7 +107,10 @@ def main(argv=None) -> int:
         ap.error("--full needs --detector (the hand detector is not bundled); "
                  "crop the hands yourself and use --image instead")
 
-    backend = make_backend(args.backend, parse_archs(args.model), args.weights)
+    # Resolve the default against this file, not the caller's cwd, so that
+    # `python /path/to/predict.py` works from anywhere.
+    weights_dir = Path(args.weights) if args.weights else Path(__file__).resolve().parent / "weights"
+    backend = make_backend(args.backend, parse_archs(args.model), weights_dir)
     print(f"[model] {backend.kind} backend, ensemble of "
           f"{'+'.join(backend.archs)} ({len(backend.archs)} nets)", flush=True)
 

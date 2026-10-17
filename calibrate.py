@@ -46,7 +46,9 @@ def main(argv=None) -> int:
     ap.add_argument("--backend", default="torch", choices=("torch", "onnx"))
     ap.add_argument("--model", default=",".join(DEFAULT_ARCHS),
                     help="comma-separated architectures")
-    ap.add_argument("--weights", default="weights")
+    ap.add_argument("--weights", default=None,
+                    help="folder holding the .pt/.onnx files "
+                         "(default: ./weights next to predict.py)")
     ap.add_argument("--out", default="calibration.json",
                     help="where to write the result JSON")
     args = ap.parse_args(argv)
@@ -68,9 +70,10 @@ def main(argv=None) -> int:
         raise SystemExit("no images found — check --hands / --dir")
 
     print(f"[in] {len(paths)} hand crop(s)", flush=True)
+    weights_dir = Path(args.weights) if args.weights else Path(__file__).resolve().parent / "weights"
     backend = make_backend(args.backend,
                            tuple(a.strip() for a in args.model.split(",") if a.strip()),
-                           args.weights)
+                           weights_dir)
 
     crops, used = [], 0
     for path in paths:

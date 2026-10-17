@@ -18,6 +18,7 @@ than for the best solo score. See docs/FINDINGS.md #2.
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import numpy as np
@@ -110,21 +111,27 @@ class OnnxBackend:
     def __init__(self, archs=DEFAULT_ARCHS, weights_dir="weights", providers=None):
         import onnxruntime as ort
 
-        # get_available_providers() reports what was compiled in, not what can
-        # actually load: a CUDA-enabled onnxruntime on a machine without cuDNN
-        # lists CUDAExecutionProvider and then fails at session creation. Fall
-        # back quietly instead of shipping that stack trace to the user.
-        ort.set_default_logger_severity(3)
-
         self.weights_dir = Path(weights_dir)
         self.archs = tuple(archs)
+
         if providers is None:
-            avail = ort.get_available_providers()
-            candidates = [[p for p in ("CUDAExecutionProvider", "TensorrtExecutionProvider",
-                                       "CPUExecutionProvider") if p in avail],
-                          ["CPUExecutionProvider"]]
-        else:
-            candidates = [list(providers), ["CPUExecutionProvider"]]
+            # CPU by default. get_available_providers() reports what was compiled
+            # in, not what can load: a CUDA-enabled onnxruntime on a machine
+            # without the CUDA runtime libraries lists CUDAExecutionProvider and
+            # then fails at session creation with a stack trace the user cannot
+            # act on. These models are 15-45 MB, so the GPU is not worth that
+            # trade by default. Opt in with HANDQC_ONNX_CUDA=1.
+            if os.environ.get("HANDQC_ONNX_CUDA") == "1":
+                avail = ort.get_available_providers()
+                providers = [p for p in ("CUDAExecutionProvider",
+                                         "TensorrtExecutionProvider",
+                                         "CPUExecutionProvider") if p in avail]
+            else:
+                providers = ["CPUExecutionProvider"]
+        # OnnxRuntime prints its own warning to stdout when a provider fails, so
+        # keep the log quiet and fall back to CPU ourselves.
+        ort.set_default_logger_severity(3)
+        candidates = [list(providers), ["CPUExecutionProvider"]]
 
         self._sessions = []
         for arch in self.archs:

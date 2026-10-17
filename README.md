@@ -162,6 +162,20 @@ reached 0.7532, and on a larger harder set it fell to 0.6873. On third-party
 illustrations about 40% of detected boxes are not hands — lanterns, braids,
 claws, flowers, trees — so that gate is not optional.
 
+## Troubleshooting
+
+- **`FileNotFoundError: missing weights`** — run `python scripts/fetch_weights.py`.
+  The default location is `./weights` *next to `predict.py`*, not the current
+  directory, so the script works when called by absolute path.
+- **`fetch_weights.py` fails with a connection error** — if you are behind a
+  proxy, set `HTTPS_PROXY`/`HTTP_PROXY`, or place the four files in `weights/`
+  by hand from the release page.
+- **ONNX prints a `Failed to create CUDAExecutionProvider` notice** — harmless.
+  A CUDA-enabled onnxruntime without the CUDA runtime libraries lists the
+  provider and then cannot load it; `OnnxBackend` falls back to CPU and says so.
+- **`0 hands found`** on an image that clearly has hands — see the limitations:
+  the detector misses most clenched-fist images.
+
 ## Known limitations
 
 - **It cannot see what the detector cannot find.** `hand_yolov8s` misses **82%**
