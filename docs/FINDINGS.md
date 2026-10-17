@@ -40,9 +40,10 @@ accuracy. Not done here.
 
 ## 2. Choosing a backbone by CV score is a coin flip, and I proved it by accident
 
-First experiment: `resnet34` was the best backbone (0.8057), `resnet18` second
-(0.8156), so `resnet34` looked like the pick. Same code, same data, re-run after
-seeding the augmentation RNG: 0.8107 vs 0.8330 — **the ranking inverted.**
+First experiment: `resnet34` looked the most stable at 0.8057 and `resnet18`
+scored higher but noisier at 0.8156, so `resnet34` was the pick — on stability,
+not on the headline number. Same code, same data, re-run after seeding the
+augmentation RNG: 0.8107 vs 0.8330 — **the ranking inverted.**
 
 The cause was an unseeded global `np.random` used for augmentation. Two runs of
 identical code differed by **>0.01 AUC**, and one downstream metric (cross-model
