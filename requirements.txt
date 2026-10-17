@@ -1,0 +1,9 @@
+# Core inference path.
+#
+# CPU-only installs should use the CPU wheel index to avoid pulling ~2.5 GB of
+# CUDA libraries:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.24
+opencv-python>=4.8
+torch>=2.0
+torchvision>=0.15

@@ -1,0 +1,9 @@
+# Optional extras.
+
+# Run the exported ONNX models instead of the PyTorch ones (no torch needed).
+#   python predict.py --image examples/good_01.png --backend onnx
+onnxruntime>=1.16
+
+# Needed only for --full: detecting hands inside a whole illustration.
+# NOTE: ultralytics is AGPL-3.0.
+ultralytics>=8.0

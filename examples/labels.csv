@@ -1,0 +1,9 @@
+file,label,gesture,base_model
+good_01.png,good,"v sign",IL
+good_02.png,good,"pointing",IL
+good_03.png,good,"outstretched hand",IL
+good_04.png,good,"peace sign",IL
+bad_01.png,bad,"clenched hand",IL
+bad_02.png,bad,"open hand, spread fingers",IL
+bad_03.png,bad,"own hands together",IL
+bad_04.png,bad,"pointing",IL

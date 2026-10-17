@@ -1,0 +1,863 @@
+num,label,hand_id,hand_tag,model,det_conf
+L001,bad,il6000_h0,clenched hand,IL,0.307
+L002,good,il6001_h0,v sign,IL,0.328
+L003,bad,il6002_h0,"open hand, spread fingers",IL,0.803
+L004,bad,il6002_h1,"open hand, spread fingers",IL,0.519
+L005,bad,il6002_h2,"open hand, spread fingers",IL,0.325
+L006,bad,il6004_h0,own hands together,IL,0.457
+L007,bad,il6004_h1,own hands together,IL,0.256
+L008,good,il6005_h0,pointing,IL,0.429
+L009,good,il6008_h0,outstretched hand,IL,0.656
+L010,good,il6008_h1,outstretched hand,IL,0.392
+L011,good,il6008_h2,outstretched hand,IL,0.291
+L012,good,il6009_h0,peace sign,IL,0.697
+L013,good,il6009_h1,peace sign,IL,0.335
+L015,bad,il6012_h0,"open hand, spread fingers",IL,0.467
+L016,bad,il6012_h1,"open hand, spread fingers",IL,0.388
+L018,bad,il6015_h0,pointing,IL,0.616
+L019,good,il6017_h0,hand on own chest,IL,0.731
+L022,bad,il6022_h0,"open hand, spread fingers",IL,0.744
+L023,bad,il6022_h1,"open hand, spread fingers",IL,0.59
+L024,bad,il6022_h2,"open hand, spread fingers",IL,0.271
+L025,good,il6025_h0,pointing,IL,0.747
+L026,bad,il6025_h1,pointing,IL,0.326
+L027,good,il6027_h0,hand on own chest,IL,0.63
+L028,good,il6027_h1,hand on own chest,IL,0.29
+L029,good,il6029_h0,peace sign,IL,0.476
+L031,good,il6031_h0,v sign,IL,0.799
+L032,good,il6031_h1,v sign,IL,0.501
+L033,bad,il6032_h0,"open hand, spread fingers",IL,0.303
+L034,bad,il6034_h0,own hands together,IL,0.555
+L035,bad,il6034_h1,own hands together,IL,0.449
+L036,bad,il6035_h0,pointing,IL,0.691
+L037,bad,il6036_h0,thumbs up,IL,0.264
+L038,good,il6038_h0,outstretched hand,IL,0.52
+L039,bad,il6038_h1,outstretched hand,IL,0.336
+L040,good,il6039_h0,peace sign,IL,0.765
+L041,good,il6039_h1,peace sign,IL,0.585
+L042,good,il6040_h0,clenched hand,IL,0.602
+L043,good,il6040_h1,clenched hand,IL,0.264
+L044,good,il6041_h0,v sign,IL,0.604
+L045,good,il6041_h1,v sign,IL,0.573
+L046,good,il6041_h2,v sign,IL,0.468
+L047,good,il6041_h3,v sign,IL,0.396
+L048,bad,il6042_h0,"open hand, spread fingers",IL,0.836
+L049,bad,il6042_h1,"open hand, spread fingers",IL,0.686
+L050,bad,il6042_h2,"open hand, spread fingers",IL,0.378
+L051,bad,il6042_h3,"open hand, spread fingers",IL,0.33
+L054,bad,il6046_h0,thumbs up,IL,0.335
+L055,bad,il6047_h0,hand on own chest,IL,0.716
+L056,good,il6048_h0,outstretched hand,IL,0.293
+L057,good,il6055_h0,pointing,IL,0.309
+L058,good,il6056_h0,thumbs up,IL,0.821
+L059,good,il6056_h1,thumbs up,IL,0.274
+L060,good,il6057_h0,hand on own chest,IL,0.619
+L061,bad,il6058_h0,outstretched hand,IL,0.62
+L062,bad,il6058_h1,outstretched hand,IL,0.435
+L063,good,il6059_h0,peace sign,IL,0.612
+L064,good,il6059_h1,peace sign,IL,0.273
+L065,good,il6060_h0,clenched hand,IL,0.337
+L068,bad,il6064_h2,own hands together,IL,0.322
+L069,bad,il6064_h3,own hands together,IL,0.286
+L070,bad,il6066_h0,thumbs up,IL,0.309
+L071,good,il6068_h0,outstretched hand,IL,0.39
+L073,bad,il6072_h0,"open hand, spread fingers",IL,0.771
+L075,good,il6073_h1,holding object,IL,0.546
+L076,bad,il6073_h2,holding object,IL,0.382
+L077,good,il6075_h0,pointing,IL,0.445
+L078,bad,il6076_h0,thumbs up,IL,0.344
+L079,good,il6078_h0,outstretched hand,IL,0.334
+L080,bad,il6078_h1,outstretched hand,IL,0.263
+L081,good,il6079_h0,peace sign,IL,0.82
+L082,bad,il6079_h1,peace sign,IL,0.593
+L083,good,il6079_h2,peace sign,IL,0.298
+L084,good,il6079_h3,peace sign,IL,0.259
+L085,good,il6081_h0,v sign,IL,0.719
+L086,bad,il6083_h0,holding object,IL,0.584
+L087,bad,il6086_h0,thumbs up,IL,0.37
+L088,good,il6089_h0,peace sign,IL,0.586
+L089,bad,il6089_h1,peace sign,IL,0.388
+L090,bad,il6089_h2,peace sign,IL,0.26
+L091,good,il6090_h0,clenched hand,IL,0.592
+L092,good,il6091_h0,v sign,IL,0.439
+L093,good,il6091_h1,v sign,IL,0.368
+L094,bad,il6092_h0,"open hand, spread fingers",IL,0.659
+L096,bad,il6096_h0,thumbs up,IL,0.292
+L097,bad,il6096_h1,thumbs up,IL,0.258
+L098,bad,il6097_h0,hand on own chest,IL,0.717
+L099,bad,il6098_h0,outstretched hand,IL,0.814
+L100,good,il6101_h0,v sign,IL,0.781
+L101,good,il6101_h1,v sign,IL,0.55
+L102,bad,il6102_h0,"open hand, spread fingers",IL,0.712
+L103,bad,il6102_h1,"open hand, spread fingers",IL,0.584
+L104,bad,il6103_h0,holding object,IL,0.824
+L105,good,il6103_h1,holding object,IL,0.652
+L106,bad,il6104_h0,own hands together,IL,0.835
+L107,good,il6105_h0,pointing,IL,0.624
+L108,good,il6106_h0,thumbs up,IL,0.278
+L109,bad,il6107_h0,hand on own chest,IL,0.292
+L111,good,il6109_h0,peace sign,IL,0.409
+L112,bad,il6109_h1,peace sign,IL,0.351
+L113,good,il6111_h0,v sign,IL,0.482
+L114,bad,il6112_h0,"open hand, spread fingers",IL,0.774
+L115,bad,il6112_h1,"open hand, spread fingers",IL,0.707
+L116,bad,il6112_h2,"open hand, spread fingers",IL,0.397
+L117,bad,il6114_h0,own hands together,IL,0.521
+L118,bad,il6115_h0,pointing,IL,0.5
+L120,bad,il6117_h0,hand on own chest,IL,0.63
+L121,bad,il6118_h0,outstretched hand,IL,0.388
+L122,bad,il6121_h0,v sign,IL,0.627
+L123,bad,il6122_h0,"open hand, spread fingers",IL,0.38
+L124,bad,il6122_h1,"open hand, spread fingers",IL,0.278
+L126,bad,il6132_h0,"open hand, spread fingers",IL,0.421
+L127,bad,il6136_h0,thumbs up,IL,0.3
+L128,bad,il6138_h0,outstretched hand,IL,0.446
+L129,bad,il6138_h1,outstretched hand,IL,0.357
+L130,good,il6139_h0,peace sign,IL,0.425
+L131,good,il6145_h0,pointing,IL,0.588
+L132,good,il6145_h1,pointing,IL,0.386
+L133,bad,il6148_h0,outstretched hand,IL,0.397
+L134,bad,il6148_h1,outstretched hand,IL,0.388
+L135,good,il6149_h0,peace sign,IL,0.582
+L136,bad,il6149_h1,peace sign,IL,0.519
+L137,bad,il6149_h2,peace sign,IL,0.45
+L138,good,il6151_h0,v sign,IL,0.337
+L139,bad,il6152_h0,"open hand, spread fingers",IL,0.651
+L140,good,il6153_h0,holding object,IL,0.42
+L141,good,il6153_h1,holding object,IL,0.401
+L142,bad,il6157_h0,hand on own chest,IL,0.663
+L143,bad,il6157_h1,hand on own chest,IL,0.375
+L144,bad,il6159_h0,peace sign,IL,0.813
+L146,bad,il6163_h0,holding object,IL,0.477
+L147,good,il6163_h1,holding object,IL,0.47
+L148,bad,il6164_h0,own hands together,IL,0.271
+L149,bad,il6165_h0,pointing,IL,0.349
+L150,bad,il6169_h0,peace sign,IL,0.364
+L151,bad,il6171_h0,v sign,IL,0.786
+L152,bad,il6171_h1,v sign,IL,0.346
+L153,bad,il6172_h0,"open hand, spread fingers",IL,0.742
+L154,bad,il6172_h1,"open hand, spread fingers",IL,0.306
+L156,bad,il6182_h0,"open hand, spread fingers",IL,0.306
+L157,bad,il6182_h1,"open hand, spread fingers",IL,0.274
+L158,bad,il6184_h0,own hands together,IL,0.362
+L159,bad,il6185_h0,pointing,IL,0.432
+L160,bad,il6186_h0,thumbs up,IL,0.366
+L161,bad,il6187_h0,hand on own chest,IL,0.362
+L162,bad,il6188_h0,outstretched hand,IL,0.475
+L163,good,il6190_h0,clenched hand,IL,0.311
+L164,good,il6190_h1,clenched hand,IL,0.273
+L165,good,il6195_h0,pointing,IL,0.76
+L166,bad,il6195_h1,pointing,IL,0.312
+L167,good,il6199_h0,peace sign,IL,0.627
+L168,good,il6199_h1,peace sign,IL,0.275
+L169,good,il6201_h0,v sign,IL,0.494
+L170,bad,il6202_h0,"open hand, spread fingers",IL,0.421
+L172,bad,il6206_h0,thumbs up,IL,0.475
+L173,bad,il6207_h0,hand on own chest,IL,0.437
+L174,bad,il6207_h1,hand on own chest,IL,0.336
+L175,bad,il6212_h0,"open hand, spread fingers",IL,0.275
+L176,good,il6213_h0,holding object,IL,0.632
+L177,bad,il6215_h0,pointing,IL,0.453
+L178,bad,il6218_h0,outstretched hand,IL,0.318
+L179,bad,il6222_h0,"open hand, spread fingers",IL,0.773
+L180,bad,il6222_h1,"open hand, spread fingers",IL,0.309
+L181,good,il6223_h0,holding object,IL,0.476
+L182,bad,il6225_h0,pointing,IL,0.546
+L183,good,il6226_h0,thumbs up,IL,0.442
+L184,good,il6226_h1,thumbs up,IL,0.271
+L185,bad,il6227_h0,hand on own chest,IL,0.311
+L186,bad,il6229_h0,peace sign,IL,0.486
+L187,bad,il6229_h1,peace sign,IL,0.311
+L188,good,il6229_h2,peace sign,IL,0.274
+L189,good,il6233_h0,holding object,IL,0.275
+L190,good,il6235_h0,pointing,IL,0.283
+L191,bad,il6238_h0,outstretched hand,IL,0.583
+L192,good,il6241_h0,v sign,IL,0.632
+L193,good,il6241_h1,v sign,IL,0.521
+L194,bad,il6242_h0,"open hand, spread fingers",IL,0.306
+L195,bad,il6243_h0,holding object,IL,0.547
+L196,bad,il6244_h0,own hands together,IL,0.729
+L197,bad,il6247_h0,hand on own chest,IL,0.336
+L198,bad,il6248_h0,outstretched hand,IL,0.253
+L199,bad,il6251_h0,v sign,IL,0.362
+L200,bad,il6254_h0,own hands together,IL,0.673
+L201,good,il6254_h1,own hands together,IL,0.369
+L202,bad,il6255_h0,pointing,IL,0.416
+L203,bad,il6255_h1,pointing,IL,0.38
+L204,good,il6256_h0,thumbs up,IL,0.777
+L205,bad,il6256_h1,thumbs up,IL,0.326
+L206,bad,il6257_h0,hand on own chest,IL,0.574
+L207,bad,il6258_h0,outstretched hand,IL,0.481
+L208,bad,il6258_h1,outstretched hand,IL,0.365
+L209,bad,il6258_h2,outstretched hand,IL,0.282
+L210,good,il6259_h0,peace sign,IL,0.473
+L212,good,il6260_h1,clenched hand,IL,0.388
+L213,bad,il6260_h2,clenched hand,IL,0.329
+L214,good,il6261_h0,v sign,IL,0.714
+L215,bad,il6264_h0,own hands together,IL,0.271
+L216,good,il6268_h0,outstretched hand,IL,0.522
+L217,good,il6269_h0,peace sign,IL,0.535
+L218,good,il6269_h1,peace sign,IL,0.41
+L219,good,il6271_h0,v sign,IL,0.416
+L220,bad,il6272_h0,"open hand, spread fingers",IL,0.746
+L221,bad,il6272_h1,"open hand, spread fingers",IL,0.684
+L222,bad,il6272_h2,"open hand, spread fingers",IL,0.34
+L223,good,il6275_h0,pointing,IL,0.403
+L224,good,il6275_h1,pointing,IL,0.262
+L225,good,il6277_h0,hand on own chest,IL,0.752
+L226,bad,il6278_h0,outstretched hand,IL,0.68
+L227,bad,il6278_h1,outstretched hand,IL,0.293
+L228,good,il6279_h0,peace sign,IL,0.421
+L229,bad,il6279_h1,peace sign,IL,0.395
+L230,good,il6280_h0,clenched hand,IL,0.777
+L231,good,il6280_h1,clenched hand,IL,0.343
+L232,good,il6280_h2,clenched hand,IL,0.264
+L233,good,il6281_h0,v sign,IL,0.421
+L234,bad,il6282_h0,"open hand, spread fingers",IL,0.593
+L235,bad,il6282_h1,"open hand, spread fingers",IL,0.572
+L236,good,il6283_h0,holding object,IL,0.381
+L237,bad,il6287_h0,hand on own chest,IL,0.321
+L238,bad,il6288_h0,outstretched hand,IL,0.894
+L239,bad,il6288_h1,outstretched hand,IL,0.48
+L240,good,il6291_h0,v sign,IL,0.343
+L241,bad,il6292_h0,"open hand, spread fingers",IL,0.528
+L242,bad,il6292_h1,"open hand, spread fingers",IL,0.496
+L244,bad,il6295_h0,pointing,IL,0.604
+L245,bad,il6295_h1,pointing,IL,0.477
+L246,bad,il6296_h0,thumbs up,IL,0.307
+L247,good,il6297_h0,hand on own chest,IL,0.538
+L248,bad,il6298_h0,outstretched hand,IL,0.366
+L249,bad,il6298_h1,outstretched hand,IL,0.331
+L250,good,il6299_h0,peace sign,IL,0.833
+L251,good,il6299_h1,peace sign,IL,0.593
+A002,good,an7002_h0,"open hand, spread fingers",Anima,0.78
+A003,good,an7002_h1,"open hand, spread fingers",Anima,0.648
+A004,good,an7002_h2,"open hand, spread fingers",Anima,0.56
+A005,good,an7003_h0,"open hand, spread fingers",Anima,0.767
+A006,good,an7003_h1,"open hand, spread fingers",Anima,0.41
+A007,good,an7003_h2,"open hand, spread fingers",Anima,0.385
+A008,good,an7003_h3,"open hand, spread fingers",Anima,0.317
+A010,bad,an7004_h1,"open hand, spread fingers",Anima,0.454
+A011,bad,an7004_h2,"open hand, spread fingers",Anima,0.398
+A012,bad,an7004_h3,"open hand, spread fingers",Anima,0.38
+A013,good,an7005_h0,"open hand, spread fingers",Anima,0.533
+A014,good,an7005_h1,"open hand, spread fingers",Anima,0.513
+A016,bad,an7007_h0,"open hand, spread fingers",Anima,0.657
+A017,bad,an7007_h1,"open hand, spread fingers",Anima,0.591
+A019,good,an7008_h0,"open hand, spread fingers",Anima,0.462
+A020,good,an7008_h1,"open hand, spread fingers",Anima,0.283
+A021,bad,an7009_h0,"open hand, spread fingers",Anima,0.785
+A022,bad,an7009_h1,"open hand, spread fingers",Anima,0.299
+A023,good,an7010_h0,"open hand, spread fingers",Anima,0.77
+A024,bad,an7010_h1,"open hand, spread fingers",Anima,0.545
+A026,bad,an7010_h3,"open hand, spread fingers",Anima,0.324
+A027,good,an7011_h0,"open hand, spread fingers",Anima,0.824
+A028,good,an7011_h1,"open hand, spread fingers",Anima,0.477
+A029,good,an7012_h0,"open hand, spread fingers",Anima,0.63
+A030,good,an7013_h0,"open hand, spread fingers",Anima,0.478
+A031,bad,an7014_h0,"open hand, spread fingers",Anima,0.627
+A032,bad,an7014_h1,"open hand, spread fingers",Anima,0.333
+A033,bad,an7014_h2,"open hand, spread fingers",Anima,0.288
+A034,bad,an7015_h0,"open hand, spread fingers",Anima,0.398
+A035,bad,an7016_h0,"open hand, spread fingers",Anima,0.439
+A036,bad,an7017_h0,"open hand, spread fingers",Anima,0.285
+A037,bad,an7017_h1,"open hand, spread fingers",Anima,0.251
+A038,bad,an7018_h0,"open hand, spread fingers",Anima,0.483
+A039,bad,an7018_h1,"open hand, spread fingers",Anima,0.396
+A040,bad,an7018_h2,"open hand, spread fingers",Anima,0.3
+A041,good,an7019_h0,"open hand, spread fingers",Anima,0.687
+A042,good,an7019_h1,"open hand, spread fingers",Anima,0.686
+A043,good,an7020_h0,"open hand, spread fingers",Anima,0.723
+A044,good,an7020_h1,"open hand, spread fingers",Anima,0.564
+A045,good,an7020_h2,"open hand, spread fingers",Anima,0.309
+A046,good,an7020_h3,"open hand, spread fingers",Anima,0.256
+A047,good,an7021_h0,"open hand, spread fingers",Anima,0.374
+A049,bad,an7021_h2,"open hand, spread fingers",Anima,0.269
+A050,bad,an7022_h0,"open hand, spread fingers",Anima,0.855
+A051,bad,an7023_h0,"open hand, spread fingers",Anima,0.778
+A052,bad,an7024_h0,"open hand, spread fingers",Anima,0.784
+A053,bad,an7025_h0,"open hand, spread fingers",Anima,0.395
+A054,bad,an7025_h1,"open hand, spread fingers",Anima,0.321
+A055,bad,an7025_h2,"open hand, spread fingers",Anima,0.273
+A056,good,an7026_h0,"open hand, spread fingers",Anima,0.274
+A057,good,an7027_h0,"open hand, spread fingers",Anima,0.711
+A058,good,an7027_h1,"open hand, spread fingers",Anima,0.511
+A059,bad,an7028_h0,"open hand, spread fingers",Anima,0.349
+A060,bad,an7029_h0,"open hand, spread fingers",Anima,0.675
+A061,bad,an7029_h1,"open hand, spread fingers",Anima,0.431
+A062,good,an7029_h2,"open hand, spread fingers",Anima,0.293
+A063,good,an7031_h0,own hands together,Anima,0.733
+A064,bad,an7032_h0,own hands together,Anima,0.606
+A065,good,an7032_h1,own hands together,Anima,0.6
+A066,good,an7033_h0,own hands together,Anima,0.751
+A067,good,an7033_h1,own hands together,Anima,0.317
+A068,good,an7034_h0,own hands together,Anima,0.402
+A069,good,an7035_h0,own hands together,Anima,0.676
+A070,good,an7035_h1,own hands together,Anima,0.286
+A071,good,an7036_h0,own hands together,Anima,0.366
+A072,good,an7037_h0,own hands together,Anima,0.55
+A073,good,an7037_h1,own hands together,Anima,0.338
+A074,bad,an7038_h0,own hands together,Anima,0.708
+A075,bad,an7038_h1,own hands together,Anima,0.693
+A076,good,an7039_h0,own hands together,Anima,0.609
+A077,good,an7039_h1,own hands together,Anima,0.34
+A078,good,an7040_h0,own hands together,Anima,0.723
+A079,good,an7040_h1,own hands together,Anima,0.331
+A080,good,an7041_h0,own hands together,Anima,0.649
+A081,good,an7041_h1,own hands together,Anima,0.336
+A082,good,an7042_h0,own hands together,Anima,0.742
+A083,bad,an7043_h0,own hands together,Anima,0.568
+A084,bad,an7043_h1,own hands together,Anima,0.426
+A085,good,an7044_h0,own hands together,Anima,0.4
+A086,good,an7046_h0,own hands together,Anima,0.689
+A087,good,an7047_h0,own hands together,Anima,0.691
+A088,good,an7047_h1,own hands together,Anima,0.402
+A089,good,an7048_h1,own hands together,Anima,0.61
+A090,good,an7048_h2,own hands together,Anima,0.586
+A091,bad,an7048_h3,own hands together,Anima,0.336
+A092,good,an7049_h0,own hands together,Anima,0.693
+A093,good,an7049_h1,own hands together,Anima,0.261
+A094,good,an7050_h0,own hands together,Anima,0.707
+A095,bad,an7051_h0,own hands together,Anima,0.63
+A096,good,an7052_h0,own hands together,Anima,0.702
+A097,good,an7052_h1,own hands together,Anima,0.502
+A098,bad,an7053_h0,own hands together,Anima,0.615
+A099,bad,an7053_h1,own hands together,Anima,0.405
+A100,bad,an7053_h2,own hands together,Anima,0.302
+A101,bad,an7053_h3,own hands together,Anima,0.257
+A102,bad,an7054_h0,own hands together,Anima,0.479
+A103,bad,an7054_h1,own hands together,Anima,0.363
+A104,good,an7056_h0,own hands together,Anima,0.509
+A105,good,an7056_h1,own hands together,Anima,0.449
+A106,good,an7057_h0,own hands together,Anima,0.753
+A108,good,an7058_h0,own hands together,Anima,0.58
+A109,good,an7058_h1,own hands together,Anima,0.492
+A110,good,an7059_h0,own hands together,Anima,0.766
+A111,good,an7060_h0,own hands together,Anima,0.733
+A113,good,an7060_h2,own hands together,Anima,0.44
+1,good,x20001_h0,clenched hand,IL,0.57
+2,good,x20001_h1,clenched hand,IL,0.299
+3,good,x20003r0,clenched hand,IL,0.086
+4,good,x20007r0,clenched hand,IL,0.117
+5,good,x20009r0,clenched hand,IL,0.084
+6,good,x20011_h0,clenched hand,IL,0.278
+7,good,x20013r0,clenched hand,IL,0.059
+9,good,x20019r0,clenched hand,IL,0.528
+10,good,x20020_h0,clenched hand,Anima,0.663
+11,bad,x20021r0,clenched hand,IL,0.071
+12,good,x20023_h0,clenched hand,IL,0.493
+13,good,x20025r0,clenched hand,IL,0.221
+14,good,x20027r0,clenched hand,IL,0.345
+15,good,x20029_h0,clenched hand,IL,0.322
+16,good,x20031_h0,clenched hand,IL,0.803
+19,good,x20039_h0,clenched hand,IL,0.767
+20,good,x20041r0,clenched hand,IL,0.158
+23,good,x20046_h0,holding object,Anima,0.443
+24,good,x20046_h1,holding object,Anima,0.427
+25,good,x20048_h0,holding object,Anima,0.75
+26,good,x20048_h1,holding object,Anima,0.731
+27,good,x20048_h2,holding object,Anima,0.426
+28,good,x20048_h3,holding object,Anima,0.378
+29,good,x20049_h0,holding object,IL,0.41
+31,good,x20051r0,holding object,IL,0.449
+32,good,x20052_h0,holding object,Anima,0.56
+33,good,x20052_h1,holding object,Anima,0.392
+34,good,x20054_h0,holding object,Anima,0.467
+35,good,x20054_h1,holding object,Anima,0.38
+36,bad,x20055r0,holding object,IL,0.326
+37,good,x20056_h0,holding object,Anima,0.793
+38,good,x20056_h1,holding object,Anima,0.717
+39,good,x20057_h0,holding object,IL,0.62
+40,good,x20057_h1,holding object,IL,0.406
+41,good,x20058_h0,holding object,Anima,0.474
+42,good,x20058_h1,holding object,Anima,0.367
+43,bad,x20059r0,holding object,IL,0.409
+44,good,x20060_h0,holding object,Anima,0.843
+45,good,x20060_h1,holding object,Anima,0.656
+46,good,x20060_h2,holding object,Anima,0.588
+47,good,x20061_h0,holding object,IL,0.336
+48,good,x20061_h1,holding object,IL,0.276
+49,good,x20062r0,holding object,Anima,0.325
+50,good,x20063_h0,holding object,IL,0.52
+51,good,x20064_h0,holding object,Anima,0.849
+56,good,x20068_h0,holding object,Anima,0.705
+57,good,x20068_h1,holding object,Anima,0.683
+58,good,x20068_h2,holding object,Anima,0.57
+59,good,x20069r0,holding object,IL,0.078
+60,good,x20070_h0,holding object,Anima,0.862
+61,good,x20070_h1,holding object,Anima,0.693
+62,good,x20071_h0,holding object,IL,0.699
+63,good,x20072_h0,holding object,Anima,0.809
+64,good,x20072_h1,holding object,Anima,0.316
+65,good,x20073_h0,holding object,IL,0.284
+66,good,x20075_h0,holding object,IL,0.45
+67,good,x20075_h1,holding object,IL,0.441
+68,good,x20075_h2,holding object,IL,0.322
+69,good,x20076_h0,holding object,Anima,0.814
+70,good,x20076_h1,holding object,Anima,0.769
+71,good,x20076_h2,holding object,Anima,0.678
+92,good,x20091_h0,thumbs up,IL,0.262
+93,good,x20093_h0,thumbs up,IL,0.381
+94,good,x20093_h1,thumbs up,IL,0.328
+95,good,x20094_h0,thumbs up,Anima,0.885
+96,good,x20095r0,thumbs up,IL,0.186
+97,good,x20097_h0,thumbs up,IL,0.413
+99,good,x20098_h0,thumbs up,Anima,0.788
+102,good,x20101r0,thumbs up,IL,0.505
+103,good,x20102r0,thumbs up,Anima,0.077
+104,good,x20105_h0,thumbs up,IL,0.397
+106,good,x20107_h0,thumbs up,IL,0.262
+108,good,x20109_h0,thumbs up,IL,0.364
+109,good,x20111_h0,thumbs up,IL,0.263
+110,good,x20113_h0,thumbs up,IL,0.473
+111,good,x20115_h0,thumbs up,IL,0.402
+113,good,x20117r0,thumbs up,IL,0.164
+114,good,x20119r0,thumbs up,IL,0.259
+115,good,x20120_h0,thumbs up,Anima,0.737
+116,good,x20121_h0,thumbs up,IL,0.527
+117,good,x20121_h1,thumbs up,IL,0.311
+118,good,x20122_h0,thumbs up,Anima,0.802
+119,good,x20123_h0,thumbs up,IL,0.34
+120,good,x20124r0,thumbs up,Anima,0.147
+121,good,x20125r0,thumbs up,IL,0.557
+122,good,x20127r0,thumbs up,IL,0.7
+123,good,x20128r0,thumbs up,Anima,0.193
+124,good,x20129r0,thumbs up,IL,0.219
+126,good,x20131r0,thumbs up,IL,0.203
+127,good,x20132_h0,thumbs up,Anima,0.704
+132,good,x20136_h0,hand on own chest,Anima,0.733
+133,good,x20137_h0,hand on own chest,IL,0.559
+134,good,x20137_h1,hand on own chest,IL,0.285
+135,good,x20138_h0,hand on own chest,Anima,0.695
+136,good,x20138_h1,hand on own chest,Anima,0.428
+137,good,x20139_h0,hand on own chest,IL,0.297
+138,good,x20140_h0,hand on own chest,Anima,0.825
+139,good,x20140_h1,hand on own chest,Anima,0.801
+140,good,x20141_h0,hand on own chest,IL,0.686
+141,good,x20141_h1,hand on own chest,IL,0.332
+142,good,x20142_h0,hand on own chest,Anima,0.781
+143,good,x20142_h1,hand on own chest,Anima,0.698
+144,good,x20142_h2,hand on own chest,Anima,0.433
+145,good,x20143r0,hand on own chest,IL,0.133
+146,good,x20144_h0,hand on own chest,Anima,0.828
+147,good,x20145r0,hand on own chest,IL,0.11
+148,good,x20146_h0,hand on own chest,Anima,0.592
+149,good,x20147_h0,hand on own chest,IL,0.562
+150,good,x20148_h0,hand on own chest,Anima,0.739
+151,good,x20149_h0,hand on own chest,IL,0.292
+152,good,x20150_h0,hand on own chest,Anima,0.623
+153,good,x20150_h1,hand on own chest,Anima,0.454
+154,good,x20151_h0,hand on own chest,IL,0.756
+155,good,x20152_h0,hand on own chest,Anima,0.83
+200,good,x20181_h0,pointing,IL,0.353
+201,good,x20182_h0,pointing,Anima,0.861
+202,good,x20183r0,pointing,IL,0.572
+203,good,x20184r0,pointing,Anima,0.151
+204,good,x20185_h0,pointing,IL,0.312
+205,good,x20186_h0,pointing,Anima,0.853
+207,good,x20188_h0,pointing,Anima,0.341
+208,good,x20189r0,pointing,IL,0.08
+209,good,x20190r0,pointing,Anima,0.202
+210,good,x20191_h0,pointing,IL,0.256
+211,good,x20192_h0,pointing,Anima,0.755
+212,good,x20193_h0,pointing,IL,0.373
+213,good,x20193_h1,pointing,IL,0.268
+214,good,x20194_h0,pointing,Anima,0.876
+215,good,x20196r0,pointing,Anima,0.135
+216,good,x20197r0,pointing,IL,0.071
+217,good,x20198_h0,pointing,Anima,0.398
+218,good,x20198_h1,pointing,Anima,0.343
+219,good,x20199_h0,pointing,IL,0.708
+220,good,x20200_h0,pointing,Anima,0.623
+221,good,x20201_h0,pointing,IL,0.616
+222,good,x20202_h0,pointing,Anima,0.761
+223,good,x20203_h0,pointing,IL,0.324
+224,good,x20204_h0,pointing,Anima,0.274
+225,good,x20205_h0,pointing,IL,0.395
+226,good,x20207_h0,pointing,IL,0.638
+227,good,x20207_h1,pointing,IL,0.442
+228,good,x20208_h0,pointing,Anima,0.478
+229,good,x20210_h0,pointing,Anima,0.704
+230,good,x20210_h1,pointing,Anima,0.637
+231,good,x20211r0,pointing,IL,0.178
+232,good,x20212_h0,pointing,Anima,0.671
+233,good,x20213r0,pointing,IL,0.116
+234,good,x20214r0,pointing,Anima,0.105
+235,good,x20215_h0,pointing,IL,0.647
+245,good,x20226_h0,outstretched hand,Anima,0.696
+246,good,x20226_h1,outstretched hand,Anima,0.523
+247,good,x20227_h0,outstretched hand,IL,0.362
+248,good,x20228_h0,outstretched hand,Anima,0.428
+249,good,x20228_h1,outstretched hand,Anima,0.314
+250,good,x20228_h2,outstretched hand,Anima,0.301
+251,good,x20229_h0,outstretched hand,IL,0.515
+252,good,x20230_h0,outstretched hand,Anima,0.617
+253,good,x20230_h1,outstretched hand,Anima,0.614
+254,good,x20231_h0,outstretched hand,IL,0.55
+255,good,x20231_h1,outstretched hand,IL,0.526
+256,good,x20233_h0,outstretched hand,IL,0.666
+257,good,x20234_h0,outstretched hand,Anima,0.611
+259,good,x20234_h3,outstretched hand,Anima,0.281
+260,good,x20235_h0,outstretched hand,IL,0.511
+261,good,x20235_h1,outstretched hand,IL,0.501
+262,good,x20236_h0,outstretched hand,Anima,0.298
+263,good,x20237r0,outstretched hand,IL,0.127
+264,good,x20238_h0,outstretched hand,Anima,0.624
+265,good,x20239r0,outstretched hand,IL,0.128
+266,good,x20240_h0,outstretched hand,Anima,0.771
+267,good,x20241_h0,outstretched hand,IL,0.633
+268,good,x20241_h1,outstretched hand,IL,0.359
+269,good,x20242_h0,outstretched hand,Anima,0.65
+270,good,x20242_h1,outstretched hand,Anima,0.533
+271,good,x20242_h2,outstretched hand,Anima,0.254
+272,good,x20243_h0,outstretched hand,IL,0.705
+273,good,x20243_h1,outstretched hand,IL,0.353
+274,good,x20244_h0,outstretched hand,Anima,0.296
+275,good,x20245_h0,outstretched hand,IL,0.589
+276,good,x20245_h1,outstretched hand,IL,0.376
+277,good,x20246_h0,outstretched hand,Anima,0.445
+278,good,x20247_h0,outstretched hand,IL,0.316
+279,good,x20247_h1,outstretched hand,IL,0.299
+280,good,x20248_h0,outstretched hand,Anima,0.347
+376,good,x20306_h0,peace sign,Anima,0.834
+377,good,x20306_h1,peace sign,Anima,0.57
+378,good,x20306_h2,peace sign,Anima,0.257
+379,good,x20307_h0,peace sign,IL,0.654
+380,good,x20308_h0,peace sign,Anima,0.888
+381,good,x20309_h0,peace sign,IL,0.687
+382,good,x20310_h0,peace sign,Anima,0.835
+383,good,x20311_h0,peace sign,IL,0.712
+384,good,x20312_h0,peace sign,Anima,0.791
+385,good,x20312_h1,peace sign,Anima,0.741
+386,good,x20313_h0,peace sign,IL,0.55
+387,good,x20314_h0,peace sign,Anima,0.857
+388,good,x20314_h1,peace sign,Anima,0.466
+389,good,x20315_h0,peace sign,IL,0.563
+390,good,x20316_h0,peace sign,Anima,0.73
+392,good,x20318_h0,peace sign,Anima,0.883
+393,good,x20318_h1,peace sign,Anima,0.877
+394,good,x20319r0,peace sign,IL,0.121
+395,good,x20320_h0,peace sign,Anima,0.707
+396,good,x20321r0,peace sign,IL,0.083
+397,good,x20322_h0,peace sign,Anima,0.82
+398,good,x20322_h1,peace sign,Anima,0.665
+399,good,x20323_h0,peace sign,IL,0.614
+441,good,x20346_h0,"open hand, spread fingers",Anima,0.776
+442,good,x20346_h1,"open hand, spread fingers",Anima,0.255
+443,good,x20347_h0,"open hand, spread fingers",IL,0.497
+444,good,x20348_h0,"open hand, spread fingers",Anima,0.861
+447,good,x20350_h0,"open hand, spread fingers",Anima,0.53
+448,good,x20350_h1,"open hand, spread fingers",Anima,0.458
+449,good,x20350_h2,"open hand, spread fingers",Anima,0.415
+450,good,x20351_h0,"open hand, spread fingers",IL,0.752
+451,good,x20351_h1,"open hand, spread fingers",IL,0.521
+452,good,x20351_h2,"open hand, spread fingers",IL,0.291
+453,good,x20352_h0,"open hand, spread fingers",Anima,0.34
+454,good,x20352_h1,"open hand, spread fingers",Anima,0.295
+455,good,x20353_h0,"open hand, spread fingers",IL,0.394
+456,good,x20354_h0,"open hand, spread fingers",Anima,0.61
+457,good,x20354_h1,"open hand, spread fingers",Anima,0.453
+458,good,x20354_h2,"open hand, spread fingers",Anima,0.346
+459,good,x20354_h3,"open hand, spread fingers",Anima,0.29
+460,good,x20355_h0,"open hand, spread fingers",IL,0.82
+461,good,x20356_h0,"open hand, spread fingers",Anima,0.662
+462,good,x20356_h1,"open hand, spread fingers",Anima,0.437
+464,good,x20358_h0,"open hand, spread fingers",Anima,0.512
+489,good,x20371_h0,own hands together,IL,0.374
+490,good,x20372_h0,own hands together,Anima,0.806
+491,good,x20373_h0,own hands together,IL,0.396
+492,good,x20373_h1,own hands together,IL,0.253
+493,good,x20374_h0,own hands together,Anima,0.66
+494,good,x20375_h0,own hands together,IL,0.732
+495,good,x20375_h1,own hands together,IL,0.44
+496,good,x20376_h0,own hands together,Anima,0.409
+497,good,x20376_h1,own hands together,Anima,0.333
+498,good,x20376_h2,own hands together,Anima,0.314
+499,good,x20376_h3,own hands together,Anima,0.271
+500,good,x20377r0,own hands together,IL,0.43
+310,good,x20266_h0,v sign,Anima,0.793
+311,good,x20267r0,v sign,IL,0.253
+312,good,x20268_h0,v sign,Anima,0.844
+313,good,x20268_h1,v sign,Anima,0.788
+314,good,x20269_h0,v sign,IL,0.609
+315,good,x20269_h1,v sign,IL,0.314
+316,good,x20270_h0,v sign,Anima,0.833
+317,good,x20270_h1,v sign,Anima,0.523
+318,good,x20271_h0,v sign,IL,0.571
+319,good,x20272_h0,v sign,Anima,0.818
+320,good,x20273_h0,v sign,IL,0.729
+321,good,x20273_h1,v sign,IL,0.474
+322,good,x20273_h2,v sign,IL,0.433
+323,good,x20274_h0,v sign,Anima,0.886
+324,good,x20274_h1,v sign,Anima,0.834
+326,good,x20277_h0,v sign,IL,0.547
+327,good,x20277_h1,v sign,IL,0.409
+328,good,x20278_h0,v sign,Anima,0.78
+329,good,x20279r0,v sign,IL,0.11
+330,good,x20280_h0,v sign,Anima,0.769
+331,good,x20280_h1,v sign,Anima,0.539
+332,good,x20280_h2,v sign,Anima,0.389
+333,good,x20282_h0,v sign,Anima,0.788
+400,good,x20324_h0,peace sign,Anima,0.831
+401,good,x20324_h1,peace sign,Anima,0.813
+402,good,x20325_h0,peace sign,IL,0.525
+403,good,x20326_h0,peace sign,Anima,0.794
+404,good,x20327_h0,peace sign,IL,0.659
+405,good,x20328_h0,peace sign,Anima,0.796
+406,good,x20328_h1,peace sign,Anima,0.332
+407,good,x20329r0,peace sign,IL,0.059
+408,good,x20330_h0,peace sign,Anima,0.85
+409,good,x20330_h1,peace sign,Anima,0.83
+410,good,x20330_h2,peace sign,Anima,0.359
+411,good,x20331_h0,peace sign,IL,0.36
+412,good,x20331_h1,peace sign,IL,0.254
+413,good,x20332_h0,peace sign,Anima,0.777
+414,good,x20332_h1,peace sign,Anima,0.769
+415,good,x20332_h2,peace sign,Anima,0.705
+416,good,x20332_h3,peace sign,Anima,0.621
+417,good,x20332_h4,peace sign,Anima,0.537
+418,good,x20333_h0,peace sign,IL,0.378
+419,good,x20334_h0,peace sign,Anima,0.829
+420,good,x20334_h1,peace sign,Anima,0.741
+421,good,x20334_h2,peace sign,Anima,0.351
+422,good,x20335_h0,peace sign,IL,0.371
+423,good,x20335_h1,peace sign,IL,0.304
+1,bad,hS1950001_h0,clenched hand,IL,0.1
+2,good,hS1950002_h0,clenched hand,IL,0.388
+3,good,hS1950002_h1,clenched hand,IL,0.311
+4,good,hS1950002_h2,clenched hand,IL,0.279
+5,good,hS1950003_h0,clenched hand,IL,0.695
+6,good,hS1950005_h0,clenched hand,IL,0.594
+7,good,hS1950006_h0,clenched hand,IL,0.737
+8,good,hS1950006_h1,clenched hand,IL,0.428
+9,good,hS1950020_h0,v sign,IL,0.335
+10,good,hS1950021_h0,v sign,IL,0.504
+11,good,hS1950021_h1,v sign,IL,0.469
+12,good,hS1950021_h2,v sign,IL,0.29
+13,good,hS1950022_h0,v sign,IL,0.284
+14,good,hS1950023_h0,v sign,IL,0.258
+15,good,hS1950023_h1,v sign,IL,0.255
+16,bad,hS1950024_h0,v sign,IL,0.086
+17,good,hS1950037_h0,holding object,IL,0.526
+18,good,hS1950038_h0,holding object,IL,0.383
+19,good,hS1950038_h1,holding object,IL,0.341
+20,good,hS1950039_h0,holding object,IL,0.347
+21,good,hS1950040_h0,holding object,IL,0.05
+22,good,hS1950041_h0,holding object,IL,0.847
+23,good,hS1950041_h1,holding object,IL,0.539
+24,good,hS1950041_h2,holding object,IL,0.261
+25,good,hS1950042_h0,holding object,IL,0.337
+26,good,hS1950055_h0,peace sign,IL,0.799
+27,good,hS1950055_h1,peace sign,IL,0.654
+28,good,hS1950055_h2,peace sign,IL,0.395
+29,good,hS1950055_h3,peace sign,IL,0.276
+30,bad,hS1950056_h0,peace sign,IL,0.489
+31,good,hS1950057_h0,peace sign,IL,0.566
+32,good,hS1950058_h0,peace sign,IL,0.451
+33,good,hS1950058_h1,peace sign,IL,0.28
+34,good,hS1950059_h0,peace sign,IL,0.762
+35,good,hS1950059_h1,peace sign,IL,0.261
+36,good,hS1950060_h0,peace sign,IL,0.549
+37,good,hS1950073_h0,thumbs up,IL,0.136
+38,good,hS1950074_h0,thumbs up,IL,0.53
+39,good,hS1950075_h0,thumbs up,IL,0.637
+40,good,hS1950075_h1,thumbs up,IL,0.536
+41,good,hS1950075_h2,thumbs up,IL,0.435
+42,good,hS1950075_h3,thumbs up,IL,0.306
+43,good,hS1950076_h0,thumbs up,IL,0.295
+44,good,hS1950077_h0,thumbs up,IL,0.166
+45,bad,hS1950091_h0,hand on own chest,IL,0.075
+46,good,hS1950092_h0,hand on own chest,IL,0.523
+47,good,hS1950093_h0,hand on own chest,IL,0.751
+48,good,hS1950093_h1,hand on own chest,IL,0.448
+49,good,hS1950093_h2,hand on own chest,IL,0.27
+50,good,hS1950094_h0,hand on own chest,IL,0.083
+51,good,hS1950095_h0,hand on own chest,IL,0.419
+52,good,hS1950096_h0,hand on own chest,IL,0.754
+53,good,hS1950096_h1,hand on own chest,IL,0.568
+54,good,hS1950109_h0,pointing,IL,0.511
+55,good,hS1950109_h1,pointing,IL,0.409
+56,good,hS1950110_h0,pointing,IL,0.295
+57,good,hS1950110_h1,pointing,IL,0.253
+58,bad,hS1950111_h0,pointing,IL,0.063
+59,good,hS1950112_h0,pointing,IL,0.57
+60,good,hS1950112_h1,pointing,IL,0.528
+1,good,nN140002_h0,clenched hand,IL,0.118
+2,good,nN140003_h0,clenched hand,IL,0.631
+3,good,nN140003_h1,clenched hand,IL,0.522
+5,good,nN140005_h0,clenched hand,IL,0.07
+6,good,nN140006_h0,clenched hand,IL,0.054
+7,good,nN142001_h0,clenched hand,IL,0.519
+8,good,nN142001_h1,clenched hand,IL,0.325
+9,good,nN142002_h0,clenched hand,IL,0.473
+10,good,nN142003_h0,clenched hand,IL,0.468
+11,good,nN142005_h0,clenched hand,IL,0.08
+12,good,nN142006_h0,clenched hand,IL,0.09
+13,good,nN142008_h0,clenched hand,IL,0.385
+14,good,nN142008_h1,clenched hand,IL,0.329
+15,good,nN142009_h0,clenched hand,IL,0.613
+16,good,nN142010_h0,clenched hand,IL,0.114
+17,good,nN142012_h0,clenched hand,IL,0.629
+18,good,nN142201_h0,hand on own chest,IL,0.683
+24,good,nN142207_h0,hand on own chest,IL,0.779
+25,good,nN142208_h0,hand on own chest,IL,0.738
+26,good,nN142209_h0,hand on own chest,IL,0.761
+27,good,nN142211_h0,hand on own chest,IL,0.224
+28,good,nN142212_h0,hand on own chest,IL,0.573
+29,good,nN142402_h0,outstretched hand,IL,0.362
+30,good,nN142403_h0,outstretched hand,IL,0.607
+31,good,nN142403_h1,outstretched hand,IL,0.455
+32,good,nN142403_h2,outstretched hand,IL,0.425
+33,good,nN142404_h0,outstretched hand,IL,0.847
+34,good,nN142404_h1,outstretched hand,IL,0.608
+35,good,nN142405_h0,outstretched hand,IL,0.15
+36,good,nN142406_h0,outstretched hand,IL,0.489
+37,good,nN142406_h1,outstretched hand,IL,0.282
+38,good,nN142407_h0,outstretched hand,IL,0.449
+39,good,nN142408_h0,outstretched hand,IL,0.542
+40,good,nN142409_h0,outstretched hand,IL,0.775
+41,good,nN142410_h0,outstretched hand,IL,0.735
+42,good,nN142410_h1,outstretched hand,IL,0.477
+43,good,nN142411_h0,outstretched hand,IL,0.081
+44,good,nN142412_h0,outstretched hand,IL,0.469
+45,good,nN142601_h0,thumbs up,IL,0.309
+46,good,nN142602_h0,thumbs up,IL,0.28
+47,good,nN142602_h1,thumbs up,IL,0.278
+48,good,nN142603_h0,thumbs up,IL,0.565
+49,good,nN142603_h1,thumbs up,IL,0.301
+50,good,nN142603_h2,thumbs up,IL,0.252
+51,good,nN142604_h0,thumbs up,IL,0.781
+52,good,nN142605_h0,thumbs up,IL,0.822
+53,good,nN142606_h0,thumbs up,IL,0.32
+54,good,nN142607_h0,thumbs up,IL,0.721
+55,good,nN142607_h1,thumbs up,IL,0.664
+56,good,nN142608_h0,thumbs up,IL,0.191
+57,good,nN142609_h0,thumbs up,IL,0.556
+58,good,nN142610_h0,thumbs up,IL,0.289
+59,good,nN142611_h0,thumbs up,IL,0.849
+60,good,nN142612_h0,thumbs up,IL,0.883
+61,good,nN142801_h0,"open hand, spread fingers",IL,0.6
+62,good,nN142804_h0,"open hand, spread fingers",IL,0.509
+63,good,nN142807_h0,"open hand, spread fingers",IL,0.821
+64,good,nN142808_h0,"open hand, spread fingers",IL,0.73
+65,good,nN142810_h0,"open hand, spread fingers",IL,0.793
+66,good,nN142811_h0,"open hand, spread fingers",IL,0.562
+67,good,nN142812_h0,"open hand, spread fingers",IL,0.497
+68,good,nN142813_h0,"open hand, spread fingers",IL,0.272
+69,good,nN142814_h0,"open hand, spread fingers",IL,0.503
+70,good,nN142814_h1,"open hand, spread fingers",IL,0.415
+71,good,nN142814_h2,"open hand, spread fingers",IL,0.327
+72,good,nN142815_h0,"open hand, spread fingers",IL,0.501
+73,good,nN142815_h1,"open hand, spread fingers",IL,0.318
+100,good,nN143005_h0,own hands together,IL,0.459
+101,good,nN143006_h0,own hands together,IL,0.869
+102,good,nN143007_h0,own hands together,IL,0.908
+103,good,nN143009_h0,own hands together,IL,0.235
+105,good,nN143011_h0,own hands together,IL,0.662
+106,good,nN143012_h0,own hands together,IL,0.758
+107,good,nN240001_h0,clenched hand,IL,0.374
+108,good,nN240003_h0,clenched hand,IL,0.746
+109,good,nN240003_h1,clenched hand,IL,0.413
+110,good,nN240003_h2,clenched hand,IL,0.31
+111,good,nN240004_h0,clenched hand,IL,0.86
+112,good,nN240005_h0,clenched hand,IL,0.332
+19,good,nN142203_h0,hand on own chest,IL,0.645
+20,good,nN142203_h1,hand on own chest,IL,0.303
+21,good,nN142204_h0,hand on own chest,IL,0.898
+22,good,nN142205_h0,hand on own chest,IL,0.811
+23,good,nN142206_h0,hand on own chest,IL,0.843
+113,good,nN143207_h0,hand on own chest,IL,0.595
+114,good,nN143208_h0,hand on own chest,IL,0.83
+116,good,nN143210_h0,hand on own chest,IL,0.763
+117,good,nN143211_h0,hand on own chest,IL,0.706
+118,good,nN143212_h0,hand on own chest,IL,0.682
+119,good,nN143213_h0,hand on own chest,IL,0.63
+120,good,nN143214_h0,hand on own chest,IL,0.839
+121,good,nN143215_h0,hand on own chest,IL,0.466
+122,good,nN143216_h0,hand on own chest,IL,0.186
+1,good,t2026_10_06_Anima_Moning_214603_00001_png_h0,unknown,user,0.901
+2,good,t2026_10_06_Anima_Moning_214603_00001_png_h1,unknown,user,0.792
+3,good,t2026_10_06_Anima_Moning_214603_00001_png_h2,unknown,user,0.769
+4,good,t2026_10_06_Anima_Moning_224959_00001_png_h0,unknown,user,0.908
+5,good,t2026_10_06_Anima_Moning_224959_00001_png_h1,unknown,user,0.882
+6,good,t2026_10_06_Anima_Moning_224959_00001_png_h2,unknown,user,0.732
+8,good,t22_CharacterDesignImage_003929_00001_png_h0,unknown,user,0.782
+9,good,t22_CharacterDesignImage_003929_00001_png_h2,unknown,user,0.733
+10,good,t22_CharacterDesignImage_003929_00001_png_h3,unknown,user,0.356
+11,good,t22_CharacterDesignImage_003929_00001_png_h4,unknown,user,0.316
+12,good,t22_CharacterDesignImage_003929_00001_png_h5,unknown,user,0.314
+13,good,t22_CharacterDesignImage_003929_00001_png_h6,unknown,user,0.278
+14,good,t22_CharacterDesignImage_003929_00001_png_h7,unknown,user,0.262
+15,good,tAgent_Anima_output_00001_png_h0,unknown,user,0.849
+16,good,tAgent_Anima_output_00001_png_h1,unknown,user,0.837
+17,good,tAnima_AgentSmoke_Anima_00002_png_h0,unknown,user,0.656
+18,good,tAnima_CanvasCutting_QUAD_00001_png_h0,unknown,user,0.814
+19,good,tAnima_CanvasCutting_QUAD_00001_png_h1,unknown,user,0.796
+20,good,tBase_2026_08_25_FLUXI2I_014210_00001_png_h0,unknown,user,0.732
+21,good,tBase_2026_08_25_FLUXI2I_042334_00001_png_h0,unknown,user,0.607
+22,good,tBase_2026_08_25_FLUXI2I_042334_00001_png_h1,unknown,user,0.454
+23,good,tBase_2026_08_25_FLUXI2I_042334_00001_png_h2,unknown,user,0.292
+24,good,tBase_2026_09_10_FLUXT2I_232440_00001_png_h0,unknown,user,0.785
+25,good,tBase_2026_09_10_FLUXT2I_232440_00001_png_h1,unknown,user,0.665
+26,good,tBase_2026_09_15_FLUXI2I_193054_00001_png_h0,unknown,user,0.859
+27,good,tBase_2026_09_15_FLUXI2I_193054_00001_png_h1,unknown,user,0.83
+28,good,tBase_2026_09_15_FLUXI2I_193421_00001_png_h0,unknown,user,0.852
+29,good,tBase_2026_09_15_FLUXI2I_193421_00001_png_h1,unknown,user,0.852
+30,good,tBase_2026_09_16_FLUXI2I_000844_00001_png_h0,unknown,user,0.868
+31,good,tBase_2026_09_16_FLUXI2I_000844_00001_png_h1,unknown,user,0.861
+32,good,tBase_2026_09_16_FLUXI2I_001133_00001_png_h0,unknown,user,0.868
+33,good,tBase_2026_09_16_FLUXI2I_001133_00001_png_h1,unknown,user,0.864
+35,good,tBase_2026_09_29_FLUXT2I_162100_00001_png_h0,unknown,user,0.847
+36,good,tBase_2026_09_29_FLUXT2I_162100_00001_png_h1,unknown,user,0.846
+38,good,tBase_2026_10_06_FLUXT2I_222914_00001_png_h0,unknown,user,0.857
+39,good,tBase_2026_10_06_FLUXT2I_222914_00001_png_h1,unknown,user,0.839
+40,good,tBase_2026_10_06_FLUXT2I_222914_00001_png_h2,unknown,user,0.558
+41,good,tBase_2026_10_06_FLUXT2I_223023_00001_png_h0,unknown,user,0.871
+42,good,tBase_2026_10_06_FLUXT2I_223023_00001_png_h1,unknown,user,0.835
+43,good,tBase_2026_10_06_FLUXT2I_223023_00001_png_h2,unknown,user,0.816
+44,good,tBase_2026_10_06_FLUXT2I_223126_00001_png_h0,unknown,user,0.845
+45,good,tBase_2026_10_06_FLUXT2I_223126_00001_png_h1,unknown,user,0.842
+46,good,tBase_2026_10_06_FLUXT2I_223126_00001_png_h2,unknown,user,0.799
+47,good,tDesign_2026_09_28_Anima_230321_00001_png_h0,unknown,user,0.831
+48,good,tDesign_2026_09_28_Anima_230321_00001_png_h1,unknown,user,0.822
+49,good,tDesign_2026_09_28_Anima_230321_00001_png_h2,unknown,user,0.817
+50,good,tDesign_2026_09_28_Anima_230321_00001_png_h3,unknown,user,0.806
+51,good,tDesign_2026_09_28_Anima_230321_00001_png_h4,unknown,user,0.805
+52,good,tDesign_2026_09_28_Anima_230321_00001_png_h5,unknown,user,0.798
+53,good,tDesign_2026_09_28_Anima_230321_00001_png_h6,unknown,user,0.795
+54,good,tDesign_2026_09_28_Anima_230321_00001_png_h7,unknown,user,0.794
+55,good,tFluxI2I_2026_07_22_F2K_234309_00001_png_h0,unknown,user,0.84
+56,good,tFluxI2I_2026_07_22_F2K_234309_00001_png_h1,unknown,user,0.275
+57,good,tFluxI2I_2026_07_23_F2K_220618_00001_png_h0,unknown,user,0.867
+58,good,tFluxI2I_2026_07_23_F2K_231449_00001_png_h0,unknown,user,0.862
+60,good,tFluxI2I_2026_07_26_F2K_231951_00001_png_h0,unknown,user,0.833
+61,good,tFluxI2I_2026_07_26_F2K_231951_00001_png_h2,unknown,user,0.296
+62,good,tI2I_Base_2026_07_23_F2K_001019_00002_png_h0,unknown,user,0.843
+64,good,tI2I_Base_2026_07_23_F2K_001019_00002_png_h2,unknown,user,0.392
+65,good,tI2I_Base_2026_07_23_F2K_003630_00001_png_h0,unknown,user,0.851
+66,good,tI2I_Base_2026_08_19_F2K_224407_00001_png_h0,unknown,user,0.828
+67,good,tIL_I2I_2026_07_27_I2I_001752_00002_png_h0,unknown,user,0.846
+68,good,tIL_I2I_2026_07_27_I2I_001752_00002_png_h1,unknown,user,0.776
+70,good,tIL_I2I_2026_07_27_I2I_001752_00003_png_h0,unknown,user,0.844
+71,good,tIL_I2I_2026_07_27_I2I_001752_00003_png_h1,unknown,user,0.769
+73,good,tIL_I2I_2026_07_28_I2I_205722_00001_png_h0,unknown,user,0.309
+74,good,tIL_I2I_2026_08_05_I2I_223734_00001_png_h0,unknown,user,0.878
+75,good,tIL_I2I_2026_08_05_I2I_223734_00001_png_h1,unknown,user,0.862
+76,good,tIL_I2I_2026_08_05_I2I_223734_00001_png_h2,unknown,user,0.852
+77,good,tIL_I2I_2026_08_05_I2I_223734_00001_png_h3,unknown,user,0.309
+78,good,tIL_T2I_2026_07_27_T2I_004110_00001_png_h0,unknown,user,0.888
+79,good,tIL_T2I_2026_08_05_T2I_214055_00001_png_h0,unknown,user,0.87
+80,good,tIL_T2I_2026_08_05_T2I_214840_00001_png_h0,unknown,user,0.893
+81,good,tIL_T2I_2026_08_05_T2I_214840_00001_png_h1,unknown,user,0.872
+83,good,tT2I_Base_2026_07_22_F2K_203659_00001_png_h0,unknown,user,0.873
+84,good,tT2I_Base_2026_07_22_F2K_203659_00001_png_h1,unknown,user,0.846
+86,good,tT2I_Base_2026_07_24_F2K_231405_00001_png_h0,unknown,user,0.831
+87,good,tT2I_Base_2026_07_24_F2K_231405_00001_png_h1,unknown,user,0.495
+88,good,tT2I_Base_2026_07_27_F2K_013407_00001_png_h0,unknown,user,0.836
+89,good,tT2I_Base_2026_07_27_F2K_013407_00001_png_h1,unknown,user,0.796
+90,good,tT2I_Base_2026_07_27_F2K_013407_00001_png_h2,unknown,user,0.739
+91,good,tT2I_Base_2026_07_27_F2K_013407_00001_png_h3,unknown,user,0.723
+92,good,tT2I_Base_2026_07_27_F2K_013407_00001_png_h4,unknown,user,0.409
+93,good,tT2I_Base_2026_07_27_F2K_015244_00001_png_h0,unknown,user,0.843
+94,good,tT2I_Base_2026_07_27_F2K_015244_00001_png_h1,unknown,user,0.84
+95,good,tT2I_Base_2026_07_27_F2K_015244_00001_png_h2,unknown,user,0.781

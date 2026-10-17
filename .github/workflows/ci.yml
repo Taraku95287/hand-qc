@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      # CPU wheels: the CUDA build of torch is ~2.5 GB and nothing here needs it.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt --no-deps
+          pip install onnxruntime pytest
+
+      - name: Smoke tests
+        run: python -m pytest tests/ -q
+
+      - name: Rebuild the results tables from the shipped OOF vectors
+        run: python scripts/evaluate.py | tee eval.txt
+
+      - name: Fail if the headline number moved without a docs update
+        run: |
+          if ! grep -q "OOF AUC \*\*0.8664\*\*" eval.txt; then
+            echo "::error::the ensemble OOF AUC is no longer 0.8664 — update docs/RESULTS.md"
+            exit 1
+          fi

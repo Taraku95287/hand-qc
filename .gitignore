@@ -1,0 +1,31 @@
+# ---- weights (distributed via GitHub Releases, not git) ----
+weights/*.pt
+weights/*.onnx
+weights/*.pth
+
+# ---- generated output ----
+out/
+runs/
+*.json.out
+predictions.json
+calibration.json
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- os / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- keep these ----
+!weights/README.md
+!examples/**/*.png
+!examples/**/*.jpg
