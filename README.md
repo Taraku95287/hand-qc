@@ -1,5 +1,10 @@
 # hand-qc — flag badly drawn hands in anime illustrations
 
+[![Language](https://img.shields.io/badge/lang-English-blue.svg)](#)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+
+**English** | [简体中文](README.zh-CN.md)
+
 A small classifier that scores a **hand crop** and answers one question: *does
 this hand look drawn correctly?* Built as a pre-publish filter for AI-generated
 illustrations, where broken hands are the single most common defect.
@@ -207,6 +212,7 @@ handqc/                 importable package
 scripts/
   fetch_weights.py      pull the 61 MB of weights from the release
   evaluate.py           rebuild the RESULTS.md tables from shipped OOF vectors
+  check_docs.py         verify the English/Chinese doc pairs have not drifted
 training/
   train.py              reproduction of the training run
   manifest.csv          862 rows: label, gesture, base model, detector conf

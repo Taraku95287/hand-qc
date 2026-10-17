@@ -1,5 +1,7 @@
 # Training
 
+**English** | [简体中文](README.zh-CN.md)
+
 `train.py` is the script that produced the shipped weights. Each run trains one
 small CNN — ImageNet-pretrained backbone, single-logit head, `BCEWithLogitsLoss`
 with `pos_weight`, AdamW, cosine LR, early stopping, 5-fold OOF AUC, optional ONNX

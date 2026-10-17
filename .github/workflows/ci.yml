@@ -33,6 +33,9 @@ jobs:
       - name: Smoke tests
         run: python -m pytest tests/ -q
 
+      - name: Bilingual docs in sync
+        run: python scripts/check_docs.py
+
       - name: Rebuild the results tables from the shipped OOF vectors
         run: python scripts/evaluate.py | tee eval.txt
 

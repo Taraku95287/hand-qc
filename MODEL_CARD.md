@@ -1,5 +1,7 @@
 # Model card — hand-qc
 
+**English** | [简体中文](MODEL_CARD.zh-CN.md)
+
 ## Overview
 
 | | |

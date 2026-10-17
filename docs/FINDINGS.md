@@ -1,5 +1,7 @@
 # Five findings worth more than the AUC
 
+**English** | [简体中文](FINDINGS.zh-CN.md)
+
 The classifier is the least interesting thing this project produced. These are
 the results that changed what I thought the task was, each with the measurement
 behind it. Numbers are reproduced from `docs/RESULTS.md` /

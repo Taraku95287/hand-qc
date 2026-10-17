@@ -10,6 +10,15 @@
 
 # 手部画法正确度评估
 
+> **本文件只有中文版。** 这是原始工作日志，按时间顺序记录，保留原样以作为
+> `RESULTS` / `FINDINGS` 背后的证据链。其余文档均为中英双语。
+>
+> **This file is Chinese only.** It is the raw chronological log, kept as the
+> evidence trail behind `RESULTS` / `FINDINGS`. Every other doc is bilingual.
+>
+> 英文入口 / English entry: [README](../README.md) · [RESULTS](RESULTS.md) ·
+> [FINDINGS](FINDINGS.md)
+
 判断 AI 生成的动漫插画中，**手部画法是否正确**。
 输入一只手的图像，输出 0~1 的质量分（越高越像正常的手）。
 

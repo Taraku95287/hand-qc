@@ -1,5 +1,7 @@
 # Results
 
+**English** | [简体中文](RESULTS.zh-CN.md)
+
 Every number here was measured on this machine; nothing is estimated. Where a
 result was later retracted or contradicted, the retraction is in the same
 section rather than deleted — `docs/RESEARCH_LOG.md` has the full chronology.

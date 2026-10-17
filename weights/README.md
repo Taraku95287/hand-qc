@@ -1,5 +1,7 @@
 # Weights
 
+**English** | [简体中文](README.zh-CN.md)
+
 The model files live here at runtime but are **not** stored in git. Fetch them
 with:
 

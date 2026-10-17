@@ -1,5 +1,7 @@
 # Data and weights provenance
 
+**English** | [简体中文](DATA_AND_WEIGHTS.zh-CN.md)
+
 ## What is in this repository
 
 | artifact | shipped | notes |
